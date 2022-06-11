@@ -1,7 +1,7 @@
 [Github](https://github.com/LedgerHQ/ledgerjs/),
 [Ledger Devs Slack](https://ledger-dev.slack.com/)
 
-## @obsidiansystems/hw-app-axia
+## @zee-ava/hd-wallet-axia
 
 [Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Axia](https://www.avalabs.org/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
 
@@ -11,7 +11,7 @@ Here is a sample app for Node:
 
 ```javascript
 const Transport = require("@ledgerhq/hw-transport-node-hid").default;
-const Axia = require("@obsidiansystems/hw-app-axia").default;
+const Axia = require("@zee-ava/hd-wallet-axia").default;
 
 const getWalletId = async () => {
   const axia = new Axia(await Transport.create());
@@ -77,7 +77,7 @@ Axia API for Ledger
 #### Examples
 
 ```javascript
-import Axia from "@obsidiansystems/hw-app-axia";
+import Axia from "@zee-ava/hd-wallet-axia";
 const axia = new Axia(transport);
 ```
 

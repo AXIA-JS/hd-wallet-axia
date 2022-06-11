@@ -5,7 +5,7 @@ import BIPPath from "bip32-path";
  * Axia API
  *
  * @example
- * import Axia from "@obsidiansystems/hw-app-axia";
+ * import Axia from "@zee-ava/hd-wallet-axia";
  * const axia = new Axia(transport);
  */
 export default class Axia {

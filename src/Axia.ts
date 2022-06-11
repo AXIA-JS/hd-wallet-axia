@@ -6,7 +6,7 @@ import createHash from 'create-hash';
  * Axia API
  *
  * @example
- * import Axia from "@obsidiansystems/hw-app-axia";
+ * import Axia from "@zee-ava/hd-wallet-axia";
  * const axia = new Axia(transport);
  */
 export default class Axia {
