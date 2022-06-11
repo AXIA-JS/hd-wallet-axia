@@ -3,7 +3,7 @@
 
 ## @zee-ava/hd-wallet-axia
 
-[Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Axia](https://www.avalabs.org/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
+[Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Axia](https://axia.global/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
 
 ## Using LedgerJS for Axia
 
