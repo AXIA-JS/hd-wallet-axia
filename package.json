@@ -1,6 +1,6 @@
 {
   "name": "@zee-ava/hd-wallet-axia",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Ledger Hardware Wallet Axia API",
   "license": "MIT",
   "keywords": [
