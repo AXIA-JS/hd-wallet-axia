@@ -1,0 +1,44 @@
+{
+  "name": "@zee-ava/hd-wallet-axia",
+  "version": "0.2.2",
+  "description": "Ledger Hardware Wallet Axia API",
+  "license": "MIT",
+  "keywords": [
+    "Ledger",
+    "LedgerWallet",
+    "axia",
+    "NanoS",
+    "Blue",
+    "Hardware Wallet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axia-js/hd-wallet-axia"
+  },
+  "bugs": {
+    "url": "https://github.com/axia-js/hd-wallet-axia/issues"
+  },
+  "homepage": "https://github.com/axia-js/hd-wallet-axia#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/Axia.js",
+  "module": "lib-es/Axia.js",
+  "types": "lib/Axia.d.ts",
+  "dependencies": {
+    "@ledgerhq/hw-transport": "^6.3.0",
+    "bip32-path": "0.4.2",
+    "create-hash": "1.2.0",
+    "jest": "^26.4.1"
+  },
+  "scripts": {
+    "build": "tsc && tsc -m ES6 --outDir lib-es",
+    "prepare": "tsc && tsc -m ES6 --outDir lib-es"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/jest": "^26.0.24",
+    "@ledgerhq/hw-transport-mocker": "^6.3.0",
+    "typescript": "^4.4.3"
+  }
+}
